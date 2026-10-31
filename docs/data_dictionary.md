@@ -135,3 +135,13 @@
 | actor_role | enum | Y | PLANT_OPERATOR, MAINTENANCE_ENGINEER, QUALITY_ENGINEER, PRODUCTION_PLANNER, OT_IT_ADMIN | - | N | Must be in list |
 | timestamp | timestamp | Y | - | - | N | Audit records for one entity are in time order |
 | reason | string | N | free text | - | N | Required for EMERGENCY_EXTENSION |
+## 11. GroundTruth (separate file: ground_truth.csv / ground_truth.json, never an input table)
+| Field | Type | Req | Allowed values / format | Unit | Unique | Validation rule |
+|---|---|---|---|---|---|---|
+| anomaly_id | string | Y | `GT-0001` | - | Y | Matches `^GT-\d{4}$` |
+| anomaly_type | enum | Y | DUE_DATE_INCONSISTENT_WITH_PLAN, EXPIRED_USE_WITHOUT_EXCEPTION, CERTIFICATE_ASSET_MISMATCH, FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT | - | N | Must be in list |
+| table_name | enum | Y | calibration_event, production_use, certificate | - | N | Table that holds record_id |
+| record_id | string | Y | ID of the affected record | - | N | (anomaly_type, record_id) is unique. For FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT it is the failed calibration_id, because the work order does not exist |
+| asset_id | string | Y | FK -> Asset | - | N | The asset the record truly belongs to |
+| expected_decision | enum | Y | FLAG_AND_RECOMPUTE_DUE_DATE, FLAG_PROHIBITED_USE, REJECT_CERTIFICATE, CREATE_IMPACT_ASSESSMENT | - | N | Fixed by anomaly_type |
+| reason | string | Y | free text | - | N | Explains why the record is wrong |

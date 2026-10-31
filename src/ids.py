@@ -53,7 +53,8 @@ def batch_id(n: int) -> str:
 def operator_code(n: int) -> str:
     return f"OP-{n:04d}"                       # OP-0001
 
-
+def ground_truth_id(n: int) -> str:
+    return f"GT-{n:04d}"                       # GT-0001
 '''---------- Counter ----------'''
 class Counter:
     """A ticket machine: gives 1, 2, 3, ... and never repeats."""

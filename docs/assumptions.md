@@ -23,3 +23,10 @@
 21. About 30% of overdue periods on plans with max_extension_days > 0 get an EMERGENCY_EXTENSION audit record (entity_type = ASSET) signed at 07:00 on the first overdue day. extension_until = due + grace_days + 1..max_extension_days.
 22. After merging the extension records, AUD- and ALT- IDs are renumbered in time order. PROHIBITED_USE alerts are raised for every VIOLATION, 10 minutes after the use.
 23. batch_id = one batch per production line, per day, per shift (A 06-14, B 14-22, C 22-06).
+24. Edge cases are injected into a COPY of the clean data. ANOMALY_COUNTS gives how many per type (starter 5, full 40). Each anomaly hits a different calibration, and counts may be lower if fewer safe candidates exist.
+25. DUE_DATE_INCONSISTENT_WITH_PLAN: next_due_date is moved by -30, -14, -7, +7, +14 or +30 days. The certificate's valid_until follows, so only the plan disagrees. Candidates are FAIL events or a tool's last PASS that no use refers to, so no unlabelled side effects appear.
+26. EXPIRED_USE_WITHOUT_EXCEPTION: an extra use on a day when the tool is overdue, the plan blocks use, no extension covers it and the tool is on the shelf. The row wrongly says VALID, is_prohibited = false and no alert exists, but due_date_at_use and days_overdue show the truth. The same number of ordinary VALID uses is removed, so the total stays exactly 100,000.
+27. Baseline VIOLATION rows are NOT anomalies. They are correctly flagged by the system (R3) and have PROHIBITED_USE alerts.
+28. CERTIFICATE_ASSET_MISMATCH: certificate.asset_id is replaced by a different, real asset.
+29. FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT: the IMPACT_ASSESSMENT work order and its logbook lines are removed (a ticket never created leaves no history). WO- and AUD- IDs are renumbered and exception_ref is remapped, so no ID gaps give the anomaly away.
+30. ground_truth.csv/json is a separate file with no link back from the input tables.

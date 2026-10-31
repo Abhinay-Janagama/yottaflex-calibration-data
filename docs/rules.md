@@ -18,3 +18,5 @@ R6  History is never overwritten. Every status change is a new AuditRecord row.
 R2b A FAIL calibration does NOT move the due date. Only a PASS does. After a FAIL the asset is re-tested 3-14 days later.
 R3b BLOCKED vs VIOLATION: if the asset's production line has an interlock (LINE-01..LINE-08) the system stops the overdue use (BLOCKED). On lines without one (LINE-09..LINE-12) the use goes ahead (VIOLATION).
 R7  An asset is never used on a calibration day or while QUARANTINED.
+R8  Edge cases are injected AFTER the clean baseline is built. Each injected anomaly hits a different calibration, and every one is listed in ground_truth (never in the input tables).
+R9  A prohibited use is: used after due_date + grace_days, plan.block_if_overdue = true, no covering EMERGENCY_EXTENSION. The system should flag it (VIOLATION) or stop it (BLOCKED).
