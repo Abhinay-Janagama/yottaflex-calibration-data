@@ -39,7 +39,9 @@ P_LATE_CALIBRATION = 0.15       # 15% of calibrations happen after the due date
 P_CERTIFICATE_GAP = 0.02        # 2% of calibration events get no certificate
 P_REQUIRES_CERTIFICATE = 0.90   # 90% of plans demand a certificate
 P_EMERGENCY_EXTENSION = 0.30    # share of overdue periods that get an extension
-
+ERR_SD_ON_TIME = 0.50           # measurement "wobble" for on-time calibrations (x tolerance)
+ERR_SD_LATE = 0.70              # bigger wobble when the calibration was late
+P_BOUNDARY_ERROR = 0.01         # 1% of measurements land exactly ON the tolerance limit
 # How many labelled bad records to inject per anomaly type (Step 7)
 ANOMALY_COUNTS = {
     "starter": 5,

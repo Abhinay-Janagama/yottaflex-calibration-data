@@ -14,3 +14,5 @@ R4  A FAIL calibration creates: a CORRECTIVE_ACTION work order (with downtime),
 R5  Each completed calibration gets CERT-<calibration_id>.
     A "certificate gap" = an event with no certificate.
 R6  History is never overwritten. Every status change is a new AuditRecord row.
+
+R2b A FAIL calibration does NOT move the due date. Only a PASS does. After a FAIL the asset is re-tested 3-14 days later.

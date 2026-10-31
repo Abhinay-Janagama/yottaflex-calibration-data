@@ -62,7 +62,7 @@
 | plan_id | string | Y | FK -> CalibrationPlan | - | N | Must equal the asset's plan_id |
 | supplier_id | string | Y | FK -> Supplier | - | N | Must exist |
 | calibration_date | date | Y | in 2026 | - | N | Within simulation window |
-| previous_due_date | date | N | - | - | N | Empty for the asset's first calibration |
+| previous_due_date | date | Y | - | - | N | Always filled. For an asset's first 2026 event it is the due date inherited from pre-2026 history. Later events: the next_due_date of the latest PASS. |
 | days_late | int | Y | >= 0 | days | N | max(0, calibration_date - previous_due_date) |
 | measured_error | float | Y | any | instrument unit | N | Absolute error found |
 | tolerance_applied | float | Y | > 0 | instrument unit | N | Must equal InstrumentType.tolerance |
