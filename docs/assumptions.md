@@ -9,3 +9,10 @@
 8. About 2% of calibration events have no certificate (certificate gaps).
 9. Emergency extensions are AuditRecord rows. Impact assessments are WorkOrder rows.
 10. All data is synthetic. No external data was used.
+
+11. Every calibration that is not a re-test gets a ROUTINE_CALIBRATION work order, created 06:00 on the calibration day and completed 4-9 hours later.
+12. A FAIL creates one CORRECTIVE_ACTION work order (created 17:00) and one IMPACT_ASSESSMENT work order (created 18:00). The repair finishes before the re-test. If no re-test happens in 2026, the repair stays IN_PROGRESS and the asset stays QUARANTINED.
+13. downtime_hours = hours from created_at to completed_at (or to 2026-12-31 23:59:59 if still open). Impact assessments have 0 downtime.
+14. Alerts: CALIBRATION_OVERDUE when a scheduled (non re-test) calibration is later than the plan's grace_days. CALIBRATION_FAILED for every FAIL. CERTIFICATE_MISSING only when the plan requires a certificate.
+15. Each asset gets an initial ASSET_STATUS_CHANGE audit record (empty -> ACTIVE) on its install date. Asset.current_status is derived from the latest status-change audit record.
+16. Work orders, alerts and audit records are numbered after sorting by time, so IDs are chronological. Emergency-extension audit records (Step 6) continue the AUD- numbering.
