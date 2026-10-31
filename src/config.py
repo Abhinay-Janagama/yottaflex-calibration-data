@@ -37,6 +37,7 @@ CRITICALITY_WEIGHTS = {"LOW": 0.5, "MEDIUM": 0.35, "HIGH": 0.15}
 P_BLOCK_IF_OVERDUE = 0.70       # 70% of plans forbid use when overdue
 P_LATE_CALIBRATION = 0.15       # 15% of calibrations happen after the due date
 P_CERTIFICATE_GAP = 0.02        # 2% of calibration events get no certificate
+P_REQUIRES_CERTIFICATE = 0.90   # 90% of plans demand a certificate
 P_EMERGENCY_EXTENSION = 0.30    # share of overdue periods that get an extension
 
 # How many labelled bad records to inject per anomaly type (Step 7)
