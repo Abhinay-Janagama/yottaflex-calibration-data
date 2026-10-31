@@ -30,3 +30,8 @@
 28. CERTIFICATE_ASSET_MISMATCH: certificate.asset_id is replaced by a different, real asset.
 29. FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT: the IMPACT_ASSESSMENT work order and its logbook lines are removed (a ticket never created leaves no history). WO- and AUD- IDs are renumbered and exception_ref is remapped, so no ID gaps give the anomaly away.
 30. ground_truth.csv/json is a separate file with no link back from the input tables.
+31. The validator receives only the tables. ground_truth is used afterwards, only to score the detectors (precision and recall per anomaly type).
+32. event.certificate_id and certificate.calibration_id point at each other, so SQLite enforces only certificate.calibration_id as a foreign key. The other direction is checked in Python.
+33. Structure checks must pass even on the injected data, because the four injected anomalies are business-logic errors, not structural ones. The detectors must find exactly the injected anomalies: precision = recall = 1.0.
+34. On the clean baseline (before injection) the validator finds zero violations and zero anomalies. This shows the detectors raise no false alarms.
+35. The R3 check recomputes use status independently from the calibration history, plan, extensions and line interlock, and ignores the stored use_status.
