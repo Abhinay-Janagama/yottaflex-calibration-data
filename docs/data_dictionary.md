@@ -106,7 +106,7 @@
 | batch_id | string | Y | `BATCH-000001` | - | N | Non-empty |
 | calibration_in_force | string | N | FK -> CalibrationEvent | - | N | The latest PASS event on or before used_at |
 | due_date_at_use | date | N | - | - | N | next_due_date of calibration_in_force |
-| days_overdue | int | Y | >= 0 | days | N | max(0, used_at date - effective due date) |
+| days_overdue | int | Y | >= 0 | days | N | max(0, used_at date - (due_date_at_use + plan.grace_days)); 0 when due_date_at_use is empty |
 | use_status | enum | Y | VALID, OVERDUE_ALLOWED, OVERDUE_WITH_EXCEPTION, BLOCKED, VIOLATION | - | N | Derived by rule R3 |
 | is_prohibited | bool | Y | true/false | - | N | true only when use_status = VIOLATION |
 | exception_ref | string | N | FK -> AuditRecord | - | N | Required when OVERDUE_WITH_EXCEPTION |
@@ -131,7 +131,7 @@
 | event_type | enum | Y | ASSET_STATUS_CHANGE, EMERGENCY_EXTENSION, WO_STATUS_CHANGE, CERTIFICATE_ISSUED | - | N | Must be in list |
 | old_value | string | N | - | - | N | Empty for the first record of an entity |
 | new_value | string | Y | - | - | N | Non-empty |
-| extension_until | date | N | - | - | N | Required only for EMERGENCY_EXTENSION; <= due date + max_extension_days |
+| extension_until | date | N | - | - | N | Required only for EMERGENCY_EXTENSION; must be > due date + grace_days and <= due date + grace_days + plan.max_extension_days |
 | actor_role | enum | Y | PLANT_OPERATOR, MAINTENANCE_ENGINEER, QUALITY_ENGINEER, PRODUCTION_PLANNER, OT_IT_ADMIN | - | N | Must be in list |
 | timestamp | timestamp | Y | - | - | N | Audit records for one entity are in time order |
 | reason | string | N | free text | - | N | Required for EMERGENCY_EXTENSION |

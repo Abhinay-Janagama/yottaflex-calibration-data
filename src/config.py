@@ -42,6 +42,10 @@ P_EMERGENCY_EXTENSION = 0.30    # share of overdue periods that get an extension
 ERR_SD_ON_TIME = 0.50           # measurement "wobble" for on-time calibrations (x tolerance)
 ERR_SD_LATE = 0.70              # bigger wobble when the calibration was late
 P_BOUNDARY_ERROR = 0.01         # 1% of measurements land exactly ON the tolerance limit
+INTERLOCK_LINES = tuple(f"LINE-{n:02d}" for n in range(1, 9))   # LINE-01..LINE-08 stop overdue tools
+WEEKEND_FACTOR = 0.30           # weekends have 30% of the weekday activity
+USE_WEIGHT_BY_CRITICALITY = {"HIGH": 1.5, "MEDIUM": 1.0, "LOW": 0.7}   # critical tools are used more
+N_OPERATORS = 120               # fake operator codes OP-0001 ... OP-0120
 # How many labelled bad records to inject per anomaly type (Step 7)
 ANOMALY_COUNTS = {
     "starter": 5,

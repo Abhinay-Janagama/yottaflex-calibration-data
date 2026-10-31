@@ -16,3 +16,10 @@
 14. Alerts: CALIBRATION_OVERDUE when a scheduled (non re-test) calibration is later than the plan's grace_days. CALIBRATION_FAILED for every FAIL. CERTIFICATE_MISSING only when the plan requires a certificate.
 15. Each asset gets an initial ASSET_STATUS_CHANGE audit record (empty -> ACTIVE) on its install date. Asset.current_status is derived from the latest status-change audit record.
 16. Work orders, alerts and audit records are numbered after sorting by time, so IDs are chronological. Emergency-extension audit records (Step 6) continue the AUD- numbering.
+17. Production uses are sampled by asset (critical assets are used more), weekday-heavy, with 06:00-22:00 busier than night. The status of every use is then derived from the asset's calibration windows (R2/R3), never assigned randomly.
+18. An asset is not used on its calibration days or while quarantined (FAIL until the next PASS).
+19. An asset with no 2026 calibration event is assumed valid all year (its next calibration falls after 2026-12-31).
+20. Overdue use on a plan with block_if_overdue = true is BLOCKED on lines with an interlock (LINE-01..LINE-08) and a VIOLATION on the others. A BLOCKED attempt is still recorded as a use event.
+21. About 30% of overdue periods on plans with max_extension_days > 0 get an EMERGENCY_EXTENSION audit record (entity_type = ASSET) signed at 07:00 on the first overdue day. extension_until = due + grace_days + 1..max_extension_days.
+22. After merging the extension records, AUD- and ALT- IDs are renumbered in time order. PROHIBITED_USE alerts are raised for every VIOLATION, 10 minutes after the use.
+23. batch_id = one batch per production line, per day, per shift (A 06-14, B 14-22, C 22-06).
