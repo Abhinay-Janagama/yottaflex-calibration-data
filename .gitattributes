@@ -1,0 +1,8 @@
+# Generated data must keep LF line endings so checksums match on every machine
+data/**   -text
+repro/**  -text
+*.csv     text eol=lf
+*.json    text eol=lf
+*.sql     text eol=lf
+*.py      text eol=lf
+*.md      text eol=lf
