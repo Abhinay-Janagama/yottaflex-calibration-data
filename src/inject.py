@@ -234,7 +234,7 @@ def write_ground_truth(rows, folder):
         writer = csv.DictWriter(f, fieldnames=GT_FIELDS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
-    with open(json_path, "w", encoding="utf-8") as f:
+    with open(json_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(rows, f, indent=2)
         f.write("\n")
     return csv_path, json_path

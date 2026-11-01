@@ -1,0 +1,10 @@
+[
+{"supplier_id": "SUP-001", "supplier_name": "Precision Cal Labs Pune", "country": "DE", "is_accredited": true, "accreditation_standard": "ISO17025", "avg_turnaround_days": 7},
+{"supplier_id": "SUP-002", "supplier_name": "Metro Metrology Chennai", "country": "IN", "is_accredited": true, "accreditation_standard": "ISO17025", "avg_turnaround_days": 9},
+{"supplier_id": "SUP-003", "supplier_name": "Apex Calibration Services", "country": "SG", "is_accredited": true, "accreditation_standard": "ISO17025", "avg_turnaround_days": 6},
+{"supplier_id": "SUP-004", "supplier_name": "Nordic Test and Cal", "country": "IN", "is_accredited": true, "accreditation_standard": "ISO17025", "avg_turnaround_days": 11},
+{"supplier_id": "SUP-005", "supplier_name": "Sigma Standards Lab", "country": "IN", "is_accredited": true, "accreditation_standard": "ISO17025", "avg_turnaround_days": 8},
+{"supplier_id": "SUP-006", "supplier_name": "Delta Measure Works", "country": "SG", "is_accredited": true, "accreditation_standard": "ISO17025", "avg_turnaround_days": 5},
+{"supplier_id": "SUP-007", "supplier_name": "Accura Calibration Hyderabad", "country": "JP", "is_accredited": true, "accreditation_standard": "ISO17025", "avg_turnaround_days": 2},
+{"supplier_id": "SUP-008", "supplier_name": "Titan Gauge Labs", "country": "US", "is_accredited": true, "accreditation_standard": "ISO17025", "avg_turnaround_days": 6}
+]

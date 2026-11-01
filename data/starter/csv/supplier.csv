@@ -1,0 +1,9 @@
+supplier_id,supplier_name,country,is_accredited,accreditation_standard,avg_turnaround_days
+SUP-001,Precision Cal Labs Pune,DE,true,ISO17025,7
+SUP-002,Metro Metrology Chennai,IN,true,ISO17025,9
+SUP-003,Apex Calibration Services,SG,true,ISO17025,6
+SUP-004,Nordic Test and Cal,IN,true,ISO17025,11
+SUP-005,Sigma Standards Lab,IN,true,ISO17025,8
+SUP-006,Delta Measure Works,SG,true,ISO17025,5
+SUP-007,Accura Calibration Hyderabad,JP,true,ISO17025,2
+SUP-008,Titan Gauge Labs,US,true,ISO17025,6

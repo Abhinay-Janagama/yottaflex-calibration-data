@@ -1,0 +1,1442 @@
+[
+  {
+    "anomaly_id": "GT-0001",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000063-2026-002494",
+    "asset_id": "AST-000063",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000122 but calibration CAL-AST-000063-2026-002494 belongs to AST-000063"
+  },
+  {
+    "anomaly_id": "GT-0002",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000078-2026-003780",
+    "asset_id": "AST-000078",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000622 but calibration CAL-AST-000078-2026-003780 belongs to AST-000078"
+  },
+  {
+    "anomaly_id": "GT-0003",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000079-2026-003277",
+    "asset_id": "AST-000079",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000684 but calibration CAL-AST-000079-2026-003277 belongs to AST-000079"
+  },
+  {
+    "anomaly_id": "GT-0004",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000086-2026-003400",
+    "asset_id": "AST-000086",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000371 but calibration CAL-AST-000086-2026-003400 belongs to AST-000086"
+  },
+  {
+    "anomaly_id": "GT-0005",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000180-2026-000542",
+    "asset_id": "AST-000180",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000117 but calibration CAL-AST-000180-2026-000542 belongs to AST-000180"
+  },
+  {
+    "anomaly_id": "GT-0006",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000271-2026-003354",
+    "asset_id": "AST-000271",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000237 but calibration CAL-AST-000271-2026-003354 belongs to AST-000271"
+  },
+  {
+    "anomaly_id": "GT-0007",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000295-2026-002417",
+    "asset_id": "AST-000295",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001463 but calibration CAL-AST-000295-2026-002417 belongs to AST-000295"
+  },
+  {
+    "anomaly_id": "GT-0008",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000400-2026-004236",
+    "asset_id": "AST-000400",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000843 but calibration CAL-AST-000400-2026-004236 belongs to AST-000400"
+  },
+  {
+    "anomaly_id": "GT-0009",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000556-2026-000153",
+    "asset_id": "AST-000556",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001342 but calibration CAL-AST-000556-2026-000153 belongs to AST-000556"
+  },
+  {
+    "anomaly_id": "GT-0010",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000573-2026-003536",
+    "asset_id": "AST-000573",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001051 but calibration CAL-AST-000573-2026-003536 belongs to AST-000573"
+  },
+  {
+    "anomaly_id": "GT-0011",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000604-2026-002214",
+    "asset_id": "AST-000604",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000504 but calibration CAL-AST-000604-2026-002214 belongs to AST-000604"
+  },
+  {
+    "anomaly_id": "GT-0012",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000604-2026-004037",
+    "asset_id": "AST-000604",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000424 but calibration CAL-AST-000604-2026-004037 belongs to AST-000604"
+  },
+  {
+    "anomaly_id": "GT-0013",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000670-2026-004700",
+    "asset_id": "AST-000670",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001914 but calibration CAL-AST-000670-2026-004700 belongs to AST-000670"
+  },
+  {
+    "anomaly_id": "GT-0014",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000673-2026-002714",
+    "asset_id": "AST-000673",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000103 but calibration CAL-AST-000673-2026-002714 belongs to AST-000673"
+  },
+  {
+    "anomaly_id": "GT-0015",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000703-2026-003300",
+    "asset_id": "AST-000703",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001402 but calibration CAL-AST-000703-2026-003300 belongs to AST-000703"
+  },
+  {
+    "anomaly_id": "GT-0016",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000785-2026-000158",
+    "asset_id": "AST-000785",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001513 but calibration CAL-AST-000785-2026-000158 belongs to AST-000785"
+  },
+  {
+    "anomaly_id": "GT-0017",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000804-2026-002869",
+    "asset_id": "AST-000804",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000793 but calibration CAL-AST-000804-2026-002869 belongs to AST-000804"
+  },
+  {
+    "anomaly_id": "GT-0018",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-000836-2026-000706",
+    "asset_id": "AST-000836",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000714 but calibration CAL-AST-000836-2026-000706 belongs to AST-000836"
+  },
+  {
+    "anomaly_id": "GT-0019",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001001-2026-001213",
+    "asset_id": "AST-001001",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000760 but calibration CAL-AST-001001-2026-001213 belongs to AST-001001"
+  },
+  {
+    "anomaly_id": "GT-0020",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001064-2026-002590",
+    "asset_id": "AST-001064",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001276 but calibration CAL-AST-001064-2026-002590 belongs to AST-001064"
+  },
+  {
+    "anomaly_id": "GT-0021",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001141-2026-002591",
+    "asset_id": "AST-001141",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000405 but calibration CAL-AST-001141-2026-002591 belongs to AST-001141"
+  },
+  {
+    "anomaly_id": "GT-0022",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001157-2026-000364",
+    "asset_id": "AST-001157",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000771 but calibration CAL-AST-001157-2026-000364 belongs to AST-001157"
+  },
+  {
+    "anomaly_id": "GT-0023",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001192-2026-003611",
+    "asset_id": "AST-001192",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000375 but calibration CAL-AST-001192-2026-003611 belongs to AST-001192"
+  },
+  {
+    "anomaly_id": "GT-0024",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001236-2026-002675",
+    "asset_id": "AST-001236",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001725 but calibration CAL-AST-001236-2026-002675 belongs to AST-001236"
+  },
+  {
+    "anomaly_id": "GT-0025",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001264-2026-001139",
+    "asset_id": "AST-001264",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001076 but calibration CAL-AST-001264-2026-001139 belongs to AST-001264"
+  },
+  {
+    "anomaly_id": "GT-0026",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001325-2026-000096",
+    "asset_id": "AST-001325",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000126 but calibration CAL-AST-001325-2026-000096 belongs to AST-001325"
+  },
+  {
+    "anomaly_id": "GT-0027",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001347-2026-002697",
+    "asset_id": "AST-001347",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000652 but calibration CAL-AST-001347-2026-002697 belongs to AST-001347"
+  },
+  {
+    "anomaly_id": "GT-0028",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001360-2026-002507",
+    "asset_id": "AST-001360",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001268 but calibration CAL-AST-001360-2026-002507 belongs to AST-001360"
+  },
+  {
+    "anomaly_id": "GT-0029",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001382-2026-000838",
+    "asset_id": "AST-001382",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001968 but calibration CAL-AST-001382-2026-000838 belongs to AST-001382"
+  },
+  {
+    "anomaly_id": "GT-0030",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001387-2026-001664",
+    "asset_id": "AST-001387",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001403 but calibration CAL-AST-001387-2026-001664 belongs to AST-001387"
+  },
+  {
+    "anomaly_id": "GT-0031",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001464-2026-004879",
+    "asset_id": "AST-001464",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000027 but calibration CAL-AST-001464-2026-004879 belongs to AST-001464"
+  },
+  {
+    "anomaly_id": "GT-0032",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001485-2026-004989",
+    "asset_id": "AST-001485",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001470 but calibration CAL-AST-001485-2026-004989 belongs to AST-001485"
+  },
+  {
+    "anomaly_id": "GT-0033",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001634-2026-001011",
+    "asset_id": "AST-001634",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000710 but calibration CAL-AST-001634-2026-001011 belongs to AST-001634"
+  },
+  {
+    "anomaly_id": "GT-0034",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001646-2026-003562",
+    "asset_id": "AST-001646",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001351 but calibration CAL-AST-001646-2026-003562 belongs to AST-001646"
+  },
+  {
+    "anomaly_id": "GT-0035",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001689-2026-004089",
+    "asset_id": "AST-001689",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000241 but calibration CAL-AST-001689-2026-004089 belongs to AST-001689"
+  },
+  {
+    "anomaly_id": "GT-0036",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001805-2026-000993",
+    "asset_id": "AST-001805",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000236 but calibration CAL-AST-001805-2026-000993 belongs to AST-001805"
+  },
+  {
+    "anomaly_id": "GT-0037",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001827-2026-000451",
+    "asset_id": "AST-001827",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001225 but calibration CAL-AST-001827-2026-000451 belongs to AST-001827"
+  },
+  {
+    "anomaly_id": "GT-0038",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001888-2026-002052",
+    "asset_id": "AST-001888",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001873 but calibration CAL-AST-001888-2026-002052 belongs to AST-001888"
+  },
+  {
+    "anomaly_id": "GT-0039",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001919-2026-004695",
+    "asset_id": "AST-001919",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-001517 but calibration CAL-AST-001919-2026-004695 belongs to AST-001919"
+  },
+  {
+    "anomaly_id": "GT-0040",
+    "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+    "table_name": "certificate",
+    "record_id": "CERT-CAL-AST-001990-2026-003038",
+    "asset_id": "AST-001990",
+    "expected_decision": "REJECT_CERTIFICATE",
+    "reason": "certificate says asset AST-000304 but calibration CAL-AST-001990-2026-003038 belongs to AST-001990"
+  },
+  {
+    "anomaly_id": "GT-0041",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000012-2026-002429",
+    "asset_id": "AST-000012",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-08-18 but calibration_date 2026-06-19 + plan interval 90 days = 2026-09-17"
+  },
+  {
+    "anomaly_id": "GT-0042",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000020-2026-004160",
+    "asset_id": "AST-000020",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-05-25 but calibration_date 2026-10-27 + plan interval 180 days = 2027-04-25"
+  },
+  {
+    "anomaly_id": "GT-0043",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000036-2026-004499",
+    "asset_id": "AST-000036",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-03-05 but calibration_date 2026-11-28 + plan interval 90 days = 2027-02-26"
+  },
+  {
+    "anomaly_id": "GT-0044",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000042-2026-003817",
+    "asset_id": "AST-000042",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-10-27 but calibration_date 2026-09-27 + plan interval 365 days = 2027-09-27"
+  },
+  {
+    "anomaly_id": "GT-0045",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000149-2026-004905",
+    "asset_id": "AST-000149",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-07-08 but calibration_date 2026-12-26 + plan interval 180 days = 2027-06-24"
+  },
+  {
+    "anomaly_id": "GT-0046",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000213-2026-004942",
+    "asset_id": "AST-000213",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-03-14 but calibration_date 2026-12-28 + plan interval 90 days = 2027-03-28"
+  },
+  {
+    "anomaly_id": "GT-0047",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000241-2026-004671",
+    "asset_id": "AST-000241",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-03-04 but calibration_date 2026-12-11 + plan interval 90 days = 2027-03-11"
+  },
+  {
+    "anomaly_id": "GT-0048",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000349-2026-004920",
+    "asset_id": "AST-000349",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2028-01-10 but calibration_date 2026-12-27 + plan interval 365 days = 2027-12-27"
+  },
+  {
+    "anomaly_id": "GT-0049",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000351-2026-003566",
+    "asset_id": "AST-000351",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-12-25 but calibration_date 2026-09-12 + plan interval 90 days = 2026-12-11"
+  },
+  {
+    "anomaly_id": "GT-0050",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000374-2026-003229",
+    "asset_id": "AST-000374",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-11-05 but calibration_date 2026-08-14 + plan interval 90 days = 2026-11-12"
+  },
+  {
+    "anomaly_id": "GT-0051",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000435-2026-001544",
+    "asset_id": "AST-000435",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-04-23 but calibration_date 2026-04-09 + plan interval 365 days = 2027-04-09"
+  },
+  {
+    "anomaly_id": "GT-0052",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000589-2026-004949",
+    "asset_id": "AST-000589",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-04-11 but calibration_date 2026-12-28 + plan interval 90 days = 2027-03-28"
+  },
+  {
+    "anomaly_id": "GT-0053",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000627-2026-001276",
+    "asset_id": "AST-000627",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-07-01 but calibration_date 2026-03-26 + plan interval 90 days = 2026-06-24"
+  },
+  {
+    "anomaly_id": "GT-0054",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000633-2026-004312",
+    "asset_id": "AST-000633",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-05-15 but calibration_date 2026-11-09 + plan interval 180 days = 2027-05-08"
+  },
+  {
+    "anomaly_id": "GT-0055",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000684-2026-004891",
+    "asset_id": "AST-000684",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-03-18 but calibration_date 2026-12-25 + plan interval 90 days = 2027-03-25"
+  },
+  {
+    "anomaly_id": "GT-0056",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000740-2026-000733",
+    "asset_id": "AST-000740",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-05-18 but calibration_date 2026-02-10 + plan interval 90 days = 2026-05-11"
+  },
+  {
+    "anomaly_id": "GT-0057",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000780-2026-001966",
+    "asset_id": "AST-000780",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-07-28 but calibration_date 2026-05-13 + plan interval 90 days = 2026-08-11"
+  },
+  {
+    "anomaly_id": "GT-0058",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000864-2026-000054",
+    "asset_id": "AST-000864",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-04-09 but calibration_date 2026-01-02 + plan interval 90 days = 2026-04-02"
+  },
+  {
+    "anomaly_id": "GT-0059",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000942-2026-000741",
+    "asset_id": "AST-000942",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-04-28 but calibration_date 2026-02-11 + plan interval 90 days = 2026-05-12"
+  },
+  {
+    "anomaly_id": "GT-0060",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000943-2026-004661",
+    "asset_id": "AST-000943",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-03-24 but calibration_date 2026-12-10 + plan interval 90 days = 2027-03-10"
+  },
+  {
+    "anomaly_id": "GT-0061",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000976-2026-004733",
+    "asset_id": "AST-000976",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-04-14 but calibration_date 2026-12-15 + plan interval 90 days = 2027-03-15"
+  },
+  {
+    "anomaly_id": "GT-0062",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001109-2026-004860",
+    "asset_id": "AST-001109",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-04-06 but calibration_date 2026-12-23 + plan interval 90 days = 2027-03-23"
+  },
+  {
+    "anomaly_id": "GT-0063",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001155-2026-002814",
+    "asset_id": "AST-001155",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-09-30 but calibration_date 2026-07-09 + plan interval 90 days = 2026-10-07"
+  },
+  {
+    "anomaly_id": "GT-0064",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001170-2026-001575",
+    "asset_id": "AST-001170",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-06-10 but calibration_date 2026-04-11 + plan interval 90 days = 2026-07-10"
+  },
+  {
+    "anomaly_id": "GT-0065",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001183-2026-001501",
+    "asset_id": "AST-001183",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-06-21 but calibration_date 2026-04-06 + plan interval 90 days = 2026-07-05"
+  },
+  {
+    "anomaly_id": "GT-0066",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001286-2026-003626",
+    "asset_id": "AST-001286",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-11-14 but calibration_date 2026-09-15 + plan interval 90 days = 2026-12-14"
+  },
+  {
+    "anomaly_id": "GT-0067",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001299-2026-004930",
+    "asset_id": "AST-001299",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-12-20 but calibration_date 2026-12-27 + plan interval 365 days = 2027-12-27"
+  },
+  {
+    "anomaly_id": "GT-0068",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001381-2026-000369",
+    "asset_id": "AST-001381",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-04-04 but calibration_date 2026-01-11 + plan interval 90 days = 2026-04-11"
+  },
+  {
+    "anomaly_id": "GT-0069",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001408-2026-004772",
+    "asset_id": "AST-001408",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-03-10 but calibration_date 2026-12-17 + plan interval 90 days = 2027-03-17"
+  },
+  {
+    "anomaly_id": "GT-0070",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001409-2026-004901",
+    "asset_id": "AST-001409",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-03-11 but calibration_date 2026-12-25 + plan interval 90 days = 2027-03-25"
+  },
+  {
+    "anomaly_id": "GT-0071",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001416-2026-000264",
+    "asset_id": "AST-001416",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-03-09 but calibration_date 2026-01-08 + plan interval 90 days = 2026-04-08"
+  },
+  {
+    "anomaly_id": "GT-0072",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001469-2026-000063",
+    "asset_id": "AST-001469",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-02-01 but calibration_date 2026-01-02 + plan interval 365 days = 2027-01-02"
+  },
+  {
+    "anomaly_id": "GT-0073",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001482-2026-002156",
+    "asset_id": "AST-001482",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-05-21 but calibration_date 2026-05-28 + plan interval 365 days = 2027-05-28"
+  },
+  {
+    "anomaly_id": "GT-0074",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001531-2026-004270",
+    "asset_id": "AST-001531",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-04-05 but calibration_date 2026-11-06 + plan interval 180 days = 2027-05-05"
+  },
+  {
+    "anomaly_id": "GT-0075",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001618-2026-000334",
+    "asset_id": "AST-001618",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-01-03 but calibration_date 2026-01-10 + plan interval 365 days = 2027-01-10"
+  },
+  {
+    "anomaly_id": "GT-0076",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001726-2026-000337",
+    "asset_id": "AST-001726",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-05-10 but calibration_date 2026-01-10 + plan interval 90 days = 2026-04-10"
+  },
+  {
+    "anomaly_id": "GT-0077",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001730-2026-002050",
+    "asset_id": "AST-001730",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2026-10-17 but calibration_date 2026-05-20 + plan interval 180 days = 2026-11-16"
+  },
+  {
+    "anomaly_id": "GT-0078",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001756-2026-003441",
+    "asset_id": "AST-001756",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-08-03 but calibration_date 2026-09-02 + plan interval 365 days = 2027-09-02"
+  },
+  {
+    "anomaly_id": "GT-0079",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001773-2026-002395",
+    "asset_id": "AST-001773",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-01-12 but calibration_date 2026-06-16 + plan interval 180 days = 2026-12-13"
+  },
+  {
+    "anomaly_id": "GT-0080",
+    "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001927-2026-004794",
+    "asset_id": "AST-001927",
+    "expected_decision": "FLAG_AND_RECOMPUTE_DUE_DATE",
+    "reason": "next_due_date 2027-12-11 but calibration_date 2026-12-18 + plan interval 365 days = 2027-12-18"
+  },
+  {
+    "anomaly_id": "GT-0081",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000015-20261227T182812",
+    "asset_id": "AST-000015",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 11 day(s) after due 2026-12-16 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0082",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000103-20260827T171649",
+    "asset_id": "AST-000103",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 8 day(s) after due 2026-08-19 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0083",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000104-20261015T115135",
+    "asset_id": "AST-000104",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 61 day(s) after due 2026-08-15 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0084",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000104-20261211T164001",
+    "asset_id": "AST-000104",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 118 day(s) after due 2026-08-15 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0085",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000143-20260914T181209",
+    "asset_id": "AST-000143",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 1 day(s) after due 2026-09-13 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0086",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000179-20261120T191756",
+    "asset_id": "AST-000179",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 35 day(s) after due 2026-10-16 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0087",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000267-20260914T214230",
+    "asset_id": "AST-000267",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 25 day(s) after due 2026-08-06 + grace 14; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0088",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000267-20261025T132946",
+    "asset_id": "AST-000267",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 66 day(s) after due 2026-08-06 + grace 14; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0089",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000267-20261102T150846",
+    "asset_id": "AST-000267",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 74 day(s) after due 2026-08-06 + grace 14; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0090",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000344-20261130T134409",
+    "asset_id": "AST-000344",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 140 day(s) after due 2026-07-13 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0091",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000345-20260802T151723",
+    "asset_id": "AST-000345",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 6 day(s) after due 2026-07-20 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0092",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000406-20261230T062516",
+    "asset_id": "AST-000406",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 60 day(s) after due 2026-10-31 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0093",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000409-20261203T151701",
+    "asset_id": "AST-000409",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 37 day(s) after due 2026-10-20 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0094",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000566-20261222T211556",
+    "asset_id": "AST-000566",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 59 day(s) after due 2026-10-24 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0095",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000748-20261011T120632",
+    "asset_id": "AST-000748",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 29 day(s) after due 2026-09-05 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0096",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000752-20260710T173629",
+    "asset_id": "AST-000752",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 33 day(s) after due 2026-05-24 + grace 14; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0097",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000754-20260608T085801",
+    "asset_id": "AST-000754",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 11 day(s) after due 2026-05-28 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0098",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000910-20261228T155523",
+    "asset_id": "AST-000910",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 29 day(s) after due 2026-11-29 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0099",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000948-20260919T202849",
+    "asset_id": "AST-000948",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 29 day(s) after due 2026-08-14 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0100",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000952-20261228T141504",
+    "asset_id": "AST-000952",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 17 day(s) after due 2026-12-04 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0101",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-000977-20261116T074944",
+    "asset_id": "AST-000977",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 8 day(s) after due 2026-11-08 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0102",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001021-20260619T102434",
+    "asset_id": "AST-001021",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 19 day(s) after due 2026-05-31 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0103",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001175-20260104T190109",
+    "asset_id": "AST-001175",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 9 day(s) after due 2025-12-12 + grace 14; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0104",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001190-20261118T082608",
+    "asset_id": "AST-001190",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 14 day(s) after due 2026-11-04 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0105",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001199-20260930T110219",
+    "asset_id": "AST-001199",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 7 day(s) after due 2026-09-16 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0106",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001225-20261231T214704",
+    "asset_id": "AST-001225",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 73 day(s) after due 2026-10-19 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0107",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001286-20260103T164209",
+    "asset_id": "AST-001286",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 4 day(s) after due 2025-12-30 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0108",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001300-20260820T144959",
+    "asset_id": "AST-001300",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 22 day(s) after due 2026-07-29 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0109",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001335-20260614T212140",
+    "asset_id": "AST-001335",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 5 day(s) after due 2026-06-02 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0110",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001368-20261225T201446",
+    "asset_id": "AST-001368",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 4 day(s) after due 2026-12-21 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0111",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001401-20260804T110458",
+    "asset_id": "AST-001401",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 9 day(s) after due 2026-07-26 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0112",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001414-20261215T115053",
+    "asset_id": "AST-001414",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 61 day(s) after due 2026-10-08 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0113",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001425-20260713T140428",
+    "asset_id": "AST-001425",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 6 day(s) after due 2026-06-23 + grace 14; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0114",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001518-20260916T120058",
+    "asset_id": "AST-001518",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 36 day(s) after due 2026-08-11 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0115",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001554-20261227T104017",
+    "asset_id": "AST-001554",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 1 day(s) after due 2026-12-26 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0116",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001617-20261111T202242",
+    "asset_id": "AST-001617",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 33 day(s) after due 2026-10-02 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0117",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001689-20261013T093937",
+    "asset_id": "AST-001689",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 2 day(s) after due 2026-10-11 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0118",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001706-20260923T115404",
+    "asset_id": "AST-001706",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 78 day(s) after due 2026-06-30 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0119",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001711-20261116T162644",
+    "asset_id": "AST-001711",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 33 day(s) after due 2026-10-14 + grace 0; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0120",
+    "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+    "table_name": "production_use",
+    "record_id": "USE-AST-001869-20260825T070031",
+    "asset_id": "AST-001869",
+    "expected_decision": "FLAG_PROHIBITED_USE",
+    "reason": "used 35 day(s) after due 2026-07-14 + grace 7; plan blocks overdue use and no extension covers it, yet the row says VALID and no alert was raised"
+  },
+  {
+    "anomaly_id": "GT-0121",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000116-2026-002993",
+    "asset_id": "AST-000116",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000116-2026-002993 FAILED (error 2.16322, tolerance 2.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0122",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000160-2026-001742",
+    "asset_id": "AST-000160",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000160-2026-001742 FAILED (error 0.51502, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0123",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000199-2026-001672",
+    "asset_id": "AST-000199",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000199-2026-001672 FAILED (error 0.03513, tolerance 0.03) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0124",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000263-2026-003943",
+    "asset_id": "AST-000263",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000263-2026-003943 FAILED (error 0.50535, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0125",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000302-2026-001016",
+    "asset_id": "AST-000302",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000302-2026-001016 FAILED (error -0.05138, tolerance 0.03) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0126",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000347-2026-002707",
+    "asset_id": "AST-000347",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000347-2026-002707 FAILED (error 1.71625, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0127",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000351-2026-002161",
+    "asset_id": "AST-000351",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000351-2026-002161 FAILED (error -1.25363, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0128",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000360-2026-001509",
+    "asset_id": "AST-000360",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000360-2026-001509 FAILED (error 0.64224, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0129",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000413-2026-004533",
+    "asset_id": "AST-000413",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000413-2026-004533 FAILED (error 0.03092, tolerance 0.03) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0130",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000496-2026-003650",
+    "asset_id": "AST-000496",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000496-2026-003650 FAILED (error -2.31898, tolerance 2.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0131",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000571-2026-001398",
+    "asset_id": "AST-000571",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000571-2026-001398 FAILED (error 0.55186, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0132",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000643-2026-002735",
+    "asset_id": "AST-000643",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000643-2026-002735 FAILED (error 0.00682, tolerance 0.005) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0133",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000663-2026-003011",
+    "asset_id": "AST-000663",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000663-2026-003011 FAILED (error -2.0403, tolerance 2.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0134",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000704-2026-004503",
+    "asset_id": "AST-000704",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000704-2026-004503 FAILED (error 2.5558, tolerance 2.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0135",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000804-2026-000459",
+    "asset_id": "AST-000804",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000804-2026-000459 FAILED (error -2.43343, tolerance 2.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0136",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000850-2026-002187",
+    "asset_id": "AST-000850",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000850-2026-002187 FAILED (error 0.51387, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0137",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-000855-2026-001707",
+    "asset_id": "AST-000855",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-000855-2026-001707 FAILED (error 0.01245, tolerance 0.01) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0138",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001015-2026-000195",
+    "asset_id": "AST-001015",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001015-2026-000195 FAILED (error -1.64843, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0139",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001123-2026-004006",
+    "asset_id": "AST-001123",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001123-2026-004006 FAILED (error -0.50498, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0140",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001143-2026-001751",
+    "asset_id": "AST-001143",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001143-2026-001751 FAILED (error -2.20905, tolerance 2.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0141",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001147-2026-002845",
+    "asset_id": "AST-001147",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001147-2026-002845 FAILED (error -0.67708, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0142",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001211-2026-003784",
+    "asset_id": "AST-001211",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001211-2026-003784 FAILED (error -1.3817, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0143",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001227-2026-001634",
+    "asset_id": "AST-001227",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001227-2026-001634 FAILED (error 0.05055, tolerance 0.05) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0144",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001256-2026-003776",
+    "asset_id": "AST-001256",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001256-2026-003776 FAILED (error -0.03611, tolerance 0.03) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0145",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001307-2026-004149",
+    "asset_id": "AST-001307",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001307-2026-004149 FAILED (error -1.05516, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0146",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001324-2026-001727",
+    "asset_id": "AST-001324",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001324-2026-001727 FAILED (error 0.04683, tolerance 0.03) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0147",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001362-2026-004103",
+    "asset_id": "AST-001362",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001362-2026-004103 FAILED (error -0.00817, tolerance 0.005) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0148",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001368-2026-003518",
+    "asset_id": "AST-001368",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001368-2026-003518 FAILED (error 0.50117, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0149",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001435-2026-003145",
+    "asset_id": "AST-001435",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001435-2026-003145 FAILED (error -0.03835, tolerance 0.03) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0150",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001461-2026-000235",
+    "asset_id": "AST-001461",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001461-2026-000235 FAILED (error -1.14623, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0151",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001506-2026-004173",
+    "asset_id": "AST-001506",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001506-2026-004173 FAILED (error -3.42135, tolerance 2.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0152",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001544-2026-001606",
+    "asset_id": "AST-001544",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001544-2026-001606 FAILED (error 0.2586, tolerance 0.25) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0153",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001694-2026-001938",
+    "asset_id": "AST-001694",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001694-2026-001938 FAILED (error -0.00822, tolerance 0.005) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0154",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001734-2026-003165",
+    "asset_id": "AST-001734",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001734-2026-003165 FAILED (error -1.37386, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0155",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001799-2026-000604",
+    "asset_id": "AST-001799",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001799-2026-000604 FAILED (error 0.00712, tolerance 0.005) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0156",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001836-2026-004935",
+    "asset_id": "AST-001836",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001836-2026-004935 FAILED (error -1.18878, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0157",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001866-2026-000841",
+    "asset_id": "AST-001866",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001866-2026-000841 FAILED (error -1.22943, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0158",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001890-2026-000480",
+    "asset_id": "AST-001890",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001890-2026-000480 FAILED (error -1.38137, tolerance 1.0) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0159",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001900-2026-002381",
+    "asset_id": "AST-001900",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001900-2026-002381 FAILED (error -0.60791, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  },
+  {
+    "anomaly_id": "GT-0160",
+    "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+    "table_name": "calibration_event",
+    "record_id": "CAL-AST-001946-2026-001254",
+    "asset_id": "AST-001946",
+    "expected_decision": "CREATE_IMPACT_ASSESSMENT",
+    "reason": "CAL-AST-001946-2026-001254 FAILED (error 0.76896, tolerance 0.5) but no IMPACT_ASSESSMENT work order exists for it"
+  }
+]

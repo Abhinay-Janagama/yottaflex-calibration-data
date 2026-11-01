@@ -1,0 +1,11 @@
+instrument_type_id,type_name,measurement_unit,range_min,range_max,tolerance,default_criticality
+ITYPE-001,Pressure Gauge,bar,0.0,100.0,0.5,HIGH
+ITYPE-002,Thermocouple,degC,0.0,1200.0,2.0,HIGH
+ITYPE-003,Digital Thermometer,degC,-50.0,300.0,0.5,MEDIUM
+ITYPE-004,Vernier Caliper,mm,0.0,300.0,0.03,LOW
+ITYPE-005,Micrometer,mm,0.0,100.0,0.005,MEDIUM
+ITYPE-006,Torque Wrench,Nm,5.0,500.0,2.0,HIGH
+ITYPE-007,Load Cell,kg,0.0,5000.0,1.0,HIGH
+ITYPE-008,Weighing Scale,kg,0.0,300.0,0.1,MEDIUM
+ITYPE-009,Digital Multimeter,V,0.0,1000.0,0.5,LOW
+ITYPE-010,Clamp Meter,A,0.0,600.0,1.0,LOW
