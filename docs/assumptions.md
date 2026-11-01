@@ -35,3 +35,8 @@
 33. Structure checks must pass even on the injected data, because the four injected anomalies are business-logic errors, not structural ones. The detectors must find exactly the injected anomalies: precision = recall = 1.0.
 34. On the clean baseline (before injection) the validator finds zero violations and zero anomalies. This shows the detectors raise no false alarms.
 35. The R3 check recomputes use status independently from the calibration history, plan, extensions and line interlock, and ignores the stored use_status.
+36. Evaluation metrics are computed from the generated tables only. ground_truth is used only to score the detectors (precision and recall) and to count injected cases in the coverage table.
+37. "Late" means calibration_date later than the due date in force (days_late > 0). Re-tests after a FAIL count as late if they fall after that due date.
+38. Realism checks use sanity bands chosen by the author, not measured from a real plant: FAIL rate 3-12%, late rate 5-40%, certificate gaps above 0% and at most 6%, VALID uses above 90%, VIOLATION uses below 2%, weekday uses above 85%, HIGH-criticality assets used more than LOW, at least 3 calibration intervals, all 12 production lines used, at most 5% of assets never used.
+39. Boundary scenarios: error exactly at tolerance (PASS), use on the last valid day (due + grace), use inside the grace period, use overdue by exactly 1 day.
+40. The report (validation_summary.md and metrics.json) contains no timestamps, so regenerating with the same seed gives identical bytes.

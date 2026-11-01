@@ -1,0 +1,423 @@
+{
+  "volume": {
+    "supplier": 8,
+    "instrument_type": 10,
+    "calibration_plan": 20,
+    "asset": 100,
+    "calibration_event": 250,
+    "certificate": 247,
+    "work_order": 276,
+    "alert": 109,
+    "audit_record": 1217,
+    "production_use": 5000
+  },
+  "calibration": {
+    "events": 250,
+    "fail_rate": 0.108,
+    "fail_rate_on_time": 0.071,
+    "fail_rate_late": 0.209,
+    "late_rate": 0.268,
+    "late_beyond_grace_rate": 0.24,
+    "days_late_mean": 15.8,
+    "days_late_p50": 12,
+    "days_late_p90": 34,
+    "days_late_max": 56,
+    "certificates_issued": 247,
+    "certificate_gap_rate": 0.012,
+    "boundary_cases_exactly_at_tolerance": 1,
+    "events_per_asset": {
+      "min": 1,
+      "mean": 2.5,
+      "max": 6
+    },
+    "events_by_interval_days": {
+      "90_days": 164,
+      "180_days": 34,
+      "365_days": 52
+    }
+  },
+  "usage": {
+    "uses": 5000,
+    "status_counts": {
+      "BLOCKED": 107,
+      "OVERDUE_ALLOWED": 67,
+      "OVERDUE_WITH_EXCEPTION": 2,
+      "VALID": 4788,
+      "VIOLATION": 36
+    },
+    "status_shares": {
+      "BLOCKED": 0.0214,
+      "OVERDUE_ALLOWED": 0.0134,
+      "OVERDUE_WITH_EXCEPTION": 0.0004,
+      "VALID": 0.9576,
+      "VIOLATION": 0.0072
+    },
+    "overdue_rate": 0.0434,
+    "days_overdue_p50": 17,
+    "days_overdue_max": 149,
+    "extension_cover_rate_of_blocked_overdue_uses": 0.0138,
+    "weekend_share": 0.1084,
+    "night_share": 0.1086,
+    "uses_per_asset": {
+      "min": 0,
+      "mean": 50,
+      "max": 87
+    },
+    "assets_never_used": 1,
+    "uses_per_asset_by_criticality": {
+      "HIGH": 68.2,
+      "LOW": 30.4,
+      "MEDIUM": 43.3
+    },
+    "uses_by_line": {
+      "LINE-01": 398,
+      "LINE-02": 389,
+      "LINE-03": 343,
+      "LINE-04": 804,
+      "LINE-05": 404,
+      "LINE-06": 590,
+      "LINE-07": 361,
+      "LINE-08": 268,
+      "LINE-09": 301,
+      "LINE-10": 521,
+      "LINE-11": 487,
+      "LINE-12": 134
+    }
+  },
+  "workflow": {
+    "work_orders_by_type": {
+      "CORRECTIVE_ACTION": 27,
+      "IMPACT_ASSESSMENT": 22,
+      "ROUTINE_CALIBRATION": 227
+    },
+    "work_orders_by_status": {
+      "COMPLETED": 272,
+      "IN_PROGRESS": 4
+    },
+    "downtime_hours_total": 30368.0,
+    "downtime_hours_by_type": {
+      "CORRECTIVE_ACTION": 28889.0,
+      "IMPACT_ASSESSMENT": 0.0,
+      "ROUTINE_CALIBRATION": 1479.0
+    },
+    "corrective_downtime_hours_mean": 1070.0,
+    "repairs_unfinished_at_year_end": 4,
+    "impact_assessments_unfinished_at_year_end": 0,
+    "alerts_by_type": {
+      "CALIBRATION_FAILED": 27,
+      "CALIBRATION_OVERDUE": 44,
+      "CERTIFICATE_MISSING": 2,
+      "PROHIBITED_USE": 36
+    },
+    "alerts_by_severity": {
+      "CRITICAL": 40,
+      "HIGH": 27,
+      "LOW": 24,
+      "MEDIUM": 18
+    },
+    "alerts_by_status": {
+      "ACKNOWLEDGED": 4,
+      "OPEN": 38,
+      "RESOLVED": 67
+    },
+    "audit_records_by_event_type": {
+      "ASSET_STATUS_CHANGE": 140,
+      "CERTIFICATE_ISSUED": 247,
+      "EMERGENCY_EXTENSION": 6,
+      "WO_STATUS_CHANGE": 824
+    },
+    "final_asset_status": {
+      "ACTIVE": 96,
+      "QUARANTINED": 4
+    }
+  },
+  "coverage": [
+    {
+      "category": "Normal",
+      "scenario": "Calibration passed on time",
+      "count": 170,
+      "covered": true
+    },
+    {
+      "category": "Normal",
+      "scenario": "Calibration with a certificate issued",
+      "count": 247,
+      "covered": true
+    },
+    {
+      "category": "Normal",
+      "scenario": "Use inside the valid window (VALID)",
+      "count": 4788,
+      "covered": true
+    },
+    {
+      "category": "Boundary",
+      "scenario": "Measured error exactly at the tolerance (must PASS)",
+      "count": 1,
+      "covered": true
+    },
+    {
+      "category": "Boundary",
+      "scenario": "Use on the last valid day (due date + grace)",
+      "count": 11,
+      "covered": true
+    },
+    {
+      "category": "Boundary",
+      "scenario": "Use after the due date but inside the grace period",
+      "count": 17,
+      "covered": true
+    },
+    {
+      "category": "Boundary",
+      "scenario": "Use overdue by exactly 1 day",
+      "count": 6,
+      "covered": true
+    },
+    {
+      "category": "Failure",
+      "scenario": "Calibration FAILED",
+      "count": 27,
+      "covered": true
+    },
+    {
+      "category": "Failure",
+      "scenario": "Corrective-action work order with downtime",
+      "count": 27,
+      "covered": true
+    },
+    {
+      "category": "Failure",
+      "scenario": "Repair still unfinished at year end",
+      "count": 4,
+      "covered": true
+    },
+    {
+      "category": "Failure",
+      "scenario": "Asset still QUARANTINED at year end",
+      "count": 4,
+      "covered": true
+    },
+    {
+      "category": "Failure",
+      "scenario": "Certificate gap (calibration without certificate)",
+      "count": 3,
+      "covered": true
+    },
+    {
+      "category": "Exception",
+      "scenario": "Overdue use allowed by plan policy (OVERDUE_ALLOWED)",
+      "count": 67,
+      "covered": true
+    },
+    {
+      "category": "Exception",
+      "scenario": "Overdue use covered by emergency extension",
+      "count": 2,
+      "covered": true
+    },
+    {
+      "category": "Exception",
+      "scenario": "Overdue use stopped by the interlock (BLOCKED)",
+      "count": 107,
+      "covered": true
+    },
+    {
+      "category": "Exception",
+      "scenario": "Prohibited use that went ahead (VIOLATION)",
+      "count": 36,
+      "covered": true
+    },
+    {
+      "category": "Exception",
+      "scenario": "Emergency extension recorded in the logbook",
+      "count": 6,
+      "covered": true
+    },
+    {
+      "category": "Exception",
+      "scenario": "Injected anomaly: DUE_DATE_INCONSISTENT_WITH_PLAN",
+      "count": 5,
+      "covered": true
+    },
+    {
+      "category": "Exception",
+      "scenario": "Injected anomaly: EXPIRED_USE_WITHOUT_EXCEPTION",
+      "count": 5,
+      "covered": true
+    },
+    {
+      "category": "Exception",
+      "scenario": "Injected anomaly: CERTIFICATE_ASSET_MISMATCH",
+      "count": 5,
+      "covered": true
+    },
+    {
+      "category": "Exception",
+      "scenario": "Injected anomaly: FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+      "count": 5,
+      "covered": true
+    }
+  ],
+  "realism": [
+    {
+      "check": "Calibration FAIL rate",
+      "value": 0.108,
+      "expected": "3% to 12%",
+      "ok": true
+    },
+    {
+      "check": "Late calibration rate",
+      "value": 0.268,
+      "expected": "5% to 40%",
+      "ok": true
+    },
+    {
+      "check": "Certificate gap rate",
+      "value": 0.012,
+      "expected": "above 0% and at most 6%",
+      "ok": true
+    },
+    {
+      "check": "Late tools fail more than on-time tools",
+      "value": "0.209 vs 0.071",
+      "expected": "late > on-time",
+      "ok": true
+    },
+    {
+      "check": "At least 3 different calibration intervals in use",
+      "value": 3,
+      "expected": "3 or more",
+      "ok": true
+    },
+    {
+      "check": "VALID share of production uses",
+      "value": 0.9576,
+      "expected": "above 90%",
+      "ok": true
+    },
+    {
+      "check": "VIOLATION share of production uses",
+      "value": 0.0072,
+      "expected": "below 2%",
+      "ok": true
+    },
+    {
+      "check": "Weekday share of production uses",
+      "value": 0.8916,
+      "expected": "above 85%",
+      "ok": true
+    },
+    {
+      "check": "Critical assets are used more than low-criticality ones",
+      "value": "HIGH 68.2 vs LOW 30.4 uses per asset",
+      "expected": "HIGH > LOW",
+      "ok": true
+    },
+    {
+      "check": "Every production line has uses",
+      "value": 12,
+      "expected": "12 lines",
+      "ok": true
+    },
+    {
+      "check": "Assets that were never used",
+      "value": 1,
+      "expected": "at most 5% of assets",
+      "ok": true
+    }
+  ],
+  "detection": [
+    {
+      "anomaly_type": "CERTIFICATE_ASSET_MISMATCH",
+      "truth": 5,
+      "found": 5,
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "anomaly_type": "DUE_DATE_INCONSISTENT_WITH_PLAN",
+      "truth": 5,
+      "found": 5,
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "anomaly_type": "EXPIRED_USE_WITHOUT_EXCEPTION",
+      "truth": 5,
+      "found": 5,
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "anomaly_type": "FAILED_CALIBRATION_WITHOUT_IMPACT_ASSESSMENT",
+      "truth": 5,
+      "found": 5,
+      "true_positives": 5,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  ],
+  "structure": [
+    {
+      "check": "Primary keys, unique keys, foreign keys (SQLite, enforcement ON)",
+      "violations": 0
+    },
+    {
+      "check": "ID formats and embedded references",
+      "violations": 0
+    },
+    {
+      "check": "Cross-table references and consistency",
+      "violations": 0
+    },
+    {
+      "check": "Allowed values (enums)",
+      "violations": 0
+    },
+    {
+      "check": "Required fields, ranges and conditional rules",
+      "violations": 0
+    },
+    {
+      "check": "Date ordering and chronological IDs",
+      "violations": 0
+    },
+    {
+      "check": "Derived values and arithmetic reconciliation",
+      "violations": 0
+    },
+    {
+      "check": "Calibration timeline lifecycle (R2)",
+      "violations": 0
+    },
+    {
+      "check": "Audit-trail lifecycle (R6)",
+      "violations": 0
+    },
+    {
+      "check": "Failure and prohibited-use follow-ups (R4, R7)",
+      "violations": 0
+    },
+    {
+      "check": "Use status recomputed from rule R3",
+      "violations": 0
+    },
+    {
+      "check": "Duplicate records",
+      "violations": 0
+    }
+  ],
+  "all_passed": true
+}
