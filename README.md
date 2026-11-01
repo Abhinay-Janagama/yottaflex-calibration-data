@@ -15,7 +15,7 @@ Built for the YottaFlex AI candidate project (72-hour challenge). **Everything i
 Requirements: Python 3.11 or newer (developed and tested on 3.13). The generator uses only the standard library. `pytest` is needed only for the tests.
 
 ```bash
-git clone https://github.com/<<Abhinay-Janagama>>/yottaflex-calibration-data.git
+git clone https://github.com/Abhinay-Janagama/yottaflex-calibration-data.git
 cd yottaflex-calibration-data
 
 python -m venv .venv
